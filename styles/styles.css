@@ -33,3 +33,11 @@ footer {
     background-color: #FAF0EA;
     padding: 10px;
 }
+
+img {
+    height: 100px;
+    width: 100px;
+}
+img:hover {
+    cursor: pointer;
+}

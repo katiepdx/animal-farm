@@ -1,9 +1,12 @@
-// import functions
+const catSound = document.getElementById('cat');
+const playCat = document.getElementById('play-cat');
+const catImg = document.getElementById('cat-img');
 
-// reference needed DOM elements
+catImg.addEventListener('click', () => {
+  catSound.play();
+  catImg.style.border = '5px solid purple';
 
-
-// set event listeners 
-  // get user input(s)
-  // do any needed work with the value(s)
-  // update DOM to reflect new value(s)
+  setTimeout(() => {
+    catImg.style.border = 'none';
+  }, 500);
+});;
